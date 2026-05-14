@@ -1,0 +1,25 @@
+# Environments & Secrets
+.env
+.env.*
+!.env.example
+*.local
+secrets.yaml
+*.key
+*.crt
+*.pem
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Editors & IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.scratch
