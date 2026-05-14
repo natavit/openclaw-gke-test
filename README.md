@@ -1,5 +1,9 @@
 # openclaw-gke-test
 
+## Prerequisites
+1. An existing GKE cluster configured with `kubectl` access.
+2. A Gemini API key (can be obtained from [Google AI Studio](https://aistudio.google.com/)).
+
 ## Deploy
 ```bash
 export GEMINI_API_KEY="..."
